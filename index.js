@@ -1,9 +1,7 @@
 function checkValidate(id,value){
-    console.log({value})
     if(value===''||value === null){
-        (document.getElementById(`icon-${id}`).className='')
+        document.getElementById(`icon-${id}`).className=''
         document.getElementById(id).className='field error'
-        console.log({id})
         switch(id){
             case 'ffirstname':
                 document.querySelector(`#alert-firstname`).style.display='none'
@@ -52,5 +50,8 @@ function onFocus(id){
 
 function onLoad(){
     console.log("VO")
-    document.querySelector(`#alert-firstname`).style.display='none'
+    console.log(document.querySelector(`#alert-lastname`).style.display='none')
+    // document.getElementById(`icon-${id}`).className=''
+    // document.getElementById(id).className='field error'
+    // document.querySelector(`#alert-firstname`).style.display='none'
 }
