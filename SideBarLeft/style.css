@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-family:  Segoe UI, Helvetica, Arial, sans-serif;
+    /* font-family:'Segoe UI Historic';src:local('Arial');unicode-range:U+530-5f4, U+10a0-10ff; */
     /* font-family: Roboto, Helvetica, Arial, sans-serif; */
     background-color: #F0F2F5;
 }
@@ -32,6 +33,7 @@
     padding: 0px 8px;
     color: #050505;
     border-radius: 8px;
+    border-bottom: solid 1px #F0F2F5;
 }
 
 .row-side:hover {
@@ -76,7 +78,7 @@
     pad: 7px 0px 8px 0px;
     line-height: 1.3333;
     font-size: .9375rem;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     line-height: 19.9995px;
     direction: ltr;
@@ -107,6 +109,7 @@
     padding: 0px 8px;
     margin-bottom: 9px;
 }
-.avt-image-down img{
+
+.avt-image-down img {
     border-radius: 5px;
 }
