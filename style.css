@@ -222,6 +222,7 @@ form input:-visible{
     position: relative;
     /* width: 109px;
     height: 43px; */
+    top: 70px;
     background-color: #be4b49;
     color: #fff;
     font-size: 13px;
@@ -241,16 +242,17 @@ form input:-visible{
     top: -7px;
     transform: rotate(45deg);
 }
-/* .alert-message-left{
+.alert-message-left{
+    left: 0;
     position: relative;
-    background-color: #be4b49;
+    background-color: #1c1e21;
     color: #fff;
     font-size: 13px;
     line-height: 17.42px;
     padding: 13px;
     border-radius: 3px;
     z-index: 100;
-    display: none;
+    /* display: none; */
 }
 .alert-message-left::before{
     content: '';
@@ -261,7 +263,7 @@ form input:-visible{
     right: 68px;
     top: -7px;
     transform: rotate(45deg);
-} */
+}
 #alert-lastname{
     position: absolute;
 }

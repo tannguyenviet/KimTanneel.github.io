@@ -6,27 +6,22 @@ function checkValidate(id,value){
         console.log({id})
         switch(id){
             case 'ffirstname':
-                console.log("flastname")
                 document.querySelector(`#alert-firstname`).style.display='none'
                 break;
 
             case 'flastname':
-                console.log("flastname")
                 document.querySelector(`#alert-lastname`).style.display='none'
                 break;
 
             case 'fcontact':
-                console.log("fcontact")
                 document.querySelector(`#alert-contact`).style.display='none'
                 break;
 
             case 'fpass':
-                console.log("fpass")
                 document.querySelector(`#alert-pass`).style.display='none'
                 break;
 
             default:
-                console.log("defalut")
         }   
     }
     
@@ -37,25 +32,25 @@ function onFocus(id){
         document.getElementById(id).className='field'
         switch(id){
             case 'ffirstname':
-                console.log("ffirstname")
                 document.querySelector(`#alert-firstname`).style.display='block'
                 break;
             case 'flastname':
-                console.log("flastname")
                 document.querySelector(`#alert-lastname`).style.display='block'
                 break;
             case 'fcontact':
-                console.log("fcontact")
                 document.querySelector(`#alert-contact`).style.display='block'
                 break;
 
             case 'fpass':
-                console.log("fpass")
                 document.querySelector(`#alert-pass`).style.display='block'
                 break;
 
             default:
-                console.log("defalut")
         }
 
+}
+
+function onLoad(){
+    console.log("VO")
+    document.querySelector(`#alert-firstname`).style.display='none'
 }

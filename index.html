@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body onload="onLoad()">
     <div class="main">
         <div class="popup-signup">
             <div class="header-signup">
@@ -21,6 +21,22 @@
                 <p>Nhanh chóng và dễ dàng.</p>
                 </div>
                 <div class="main-signup">
+                    <div>
+                        <div id="alert-firstname" class="alert-message">
+                            Tên bạn là gì
+                        </div>
+                        <div id="alert-lastname" class="alert-message">
+                            Họ bạn là gì
+                        </div>
+                        <div id="alert-contact" class="alert-message">
+                              Bạn sẽ sử dụng thông tin này khi đăng nhập và khi
+                              cần đặt lại mật khẩu
+                        </div>
+                        <div id="alert-pass" class="alert-message">
+                            Mật khẩu có tối thiểu 6 kí tự bao gồm số, chữ cái và 
+                            dấu chấm câu (như! và &)  
+                        </div>
+                    </div>
                     <form>
                         <div class="row row-name">
                             <div class="wrap-field field-left" >
@@ -38,22 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <div id="alert-firstname" class="alert-message">
-                                Tên bạn là gì
-                            </div>
-                            <div id="alert-lastname" class="alert-message">
-                                Họ bạn là gì
-                            </div>
-                            <div id="alert-contact" class="alert-message">
-                                  Bạn sẽ sử dụng thông tin này khi đăng nhập và khi
-                                  cần đặt lại mật khẩu
-                            </div>
-                            <div id="alert-pass" class="alert-message">
-                                Mật khẩu có tối thiểu 6 kí tự bao gồm số, chữ cái và 
-                                dấu chấm câu (như! và &)  
-                            </div>
-                        </div>
+                        
                         
 
                         <div class="row row-contact">
