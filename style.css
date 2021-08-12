@@ -147,10 +147,16 @@ form input:-visible{
     width: 125px;
 }
 .row-gender >div:first-child{
-    margin-left:0
+    margin-left:0;
+    width:104.68px;
 }
 .row-gender >div:last-child{
-    margin-right:0
+    margin-right:0;
+    width: 148.84px;
+}
+.row-gender > div:first-child +div{
+    width: 115.48px;
+
 }
 .female{
     width: 104.68px;
