@@ -20,10 +20,17 @@ height: 1080px;
     border: solid 1px #E8E8E8;
     text-decoration: none;
     color: #706B63;
-    margin-left: 3px;
+    margin-left: 7px;
 }
 .pagination .active{
     border: solid 1px #55ABFF;
     color: 
     #55ABFF;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a.three-dot:hover {background-color: #fff;}
+.pagination  .three-dot{
+    padding-top: 0px;
+    font-size: 25px;
+    border: none;
 }

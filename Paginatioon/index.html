@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
         <div class="pagination">
             <a href="#">❮</a>
-            <a href="#">1</a>
-            <a href="#">...</a>
-            
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a class="active" href="#">5</a>
-            <a href="#">6</a>
-            <a  href="#">❯</a>
-          </div>
+            <a id="1" onclick="onPageClick(this.id)" href="#">1</a>
+            <a class="three-dot" href="#">...</a>
+            <a id="6" onclick="onPageClick(this.id)" href="#">6</a>
+            <a id="7" onclick="onPageClick(this.id)" href="#">7</a>
+            <a id="8" onclick="onPageClick(this.id)" class="active" href="#">8</a>
+            <a id="9" onclick="onPageClick(this.id)" href="#">9</a>
+            <a id="10" onclick="onPageClick(this.id)" href="#">10</a>
+            <a class="three-dot" href="#">...</a>
+            <a id="50" onclick="onPageClick(this.id)" href="#">50</a>
+            <a href="#">❯</a>
+        </div>
     </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
