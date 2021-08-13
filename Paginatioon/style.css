@@ -12,7 +12,7 @@ height: 1080px;
 .pagination{
     display: flex;
 }
-.pagination a{
+.pagination a,select{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ height: 1080px;
     border: solid 1px #E8E8E8;
     text-decoration: none;
     color: #706B63;
-    margin-left: 7px;
+    margin-right: 7px;
 }
 .pagination .active{
     border: solid 1px #55ABFF;
