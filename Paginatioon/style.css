@@ -3,14 +3,36 @@
     padding: 0;
     margin: 0;
 }
+
 .main{
 display: flex;
-align-items: center;
-justify-content: center;
+flex-direction: column;
 height: 1080px;
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+.table td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+.table tr:nth-child(even) {
+    background-color: #dddddd;
 }
 .pagination{
     display: flex;
+    align-items: center;
+justify-content: center;
 }
 .pagination a,select{
     display: flex;
