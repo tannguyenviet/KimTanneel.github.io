@@ -1,15 +1,16 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.main{
-display: flex;
-flex-direction: column;
-height: 1080px;
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 1080px;
 }
-.data{
+
+.data {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,24 +21,33 @@ height: 1080px;
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
-.table td, th {
-border: 1px solid #dddddd;
-text-align: left;
-padding: 8px;
 }
+
+.table td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
 .table tr:nth-child(even) {
     background-color: #dddddd;
 }
-.itemPage{
+
+
+.itemPage {
     display: flex;
+    flex-direction: row;
 }
-.pagination{
+
+.pagination {
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
 }
-.pagination a,select{
+
+.pagination a,
+select {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,14 +57,22 @@ justify-content: center;
     color: #706B63;
     margin-right: 7px;
 }
-.pagination .active{
+
+.pagination .active {
     border: solid 1px #55ABFF;
-    color: 
-    #55ABFF;
+    color:
+        #55ABFF;
 }
-.pagination a:hover:not(.active) {background-color: #ddd;}
-.pagination a.three-dot:hover {background-color: #fff;}
-.pagination  .three-dot{
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination a.three-dot:hover {
+    background-color: #fff;
+}
+
+.pagination .three-dot {
     padding-top: 0px;
     font-size: 25px;
     border: none;
