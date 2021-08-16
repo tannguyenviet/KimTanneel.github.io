@@ -29,6 +29,9 @@ padding: 8px;
 .table tr:nth-child(even) {
     background-color: #dddddd;
 }
+.itemPage{
+    display: flex;
+}
 .pagination{
     display: flex;
     align-items: center;
