@@ -197,7 +197,7 @@ function onPageClick(id) {
 function onChangeOption(itemPerPage) {
     document.getElementById("amountPage").selectedIndex = itemPerPage - 2
     const id = document.getElementsByClassName("active")[0].id
-    renderPage(id, itemPerPage)
+    renderPage(1, itemPerPage)
     renderPagination(1, itemPerPage, defaultItem)
     console.log({
         itemPerPage
