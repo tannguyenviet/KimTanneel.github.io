@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Product Sans',Arial,sans-serif;
+
+}
+img{
+    vertical-align: top;
+} 
+.icon span{
+    padding: 12px;
+    vertical-align: top;
+    color: #444;
+    /* height: 48px; */
+    overflow: hidden;
+    /* width: 48px; */
+}
+.icon span:hover{
+    transition: background .3s;
+    border-radius: 50%;
+    background: #f1f3f4;
+}
+.icon-small span{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar:hover{
+    transition: background .3s;
+    background: #f1f3f4;
+}
+.nav-header {
+    width:100%;
+    display: flex;
+}
+.nav-header .wrap-header{
+    width:100%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* Nav header contain logo and script logo */
+
+.nav-header .wrap-header .wrap-image{
+  
+}
+.nav-header .wrap-header .wrap-image div{
+    display:flex;
+    align-items: center;
+    padding: 6px 0px 2px 12px;
+}
+.nav-header .wrap-header .wrap-image div span{
+    font-size: 22px;
+    line-height: 24px;
+    padding-left: 4px;
+    color: #5f6368;
+    position: relative;
+    vertical-align: middle;
+}
+.nav-header .wrap-header .wrap-item{
+display: flex;
+
+}
+/* Nav header right contain date and other icon such as info setting question */
+
+.nav-header .wrap-item .item-left{
+    display: flex;
+    align-items: center;
+}
+.nav-header .wrap-item .item-left .wrap-icon{
+    display: flex;
+}
+
+.nav-header .wrap-item .wrap-date{
+    font-family: 'Product Sans',Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    color: #5f6368;
+    margin-right: 12px;
+}
+/* Nav header right contain icon app and account */
+.nav-header .wrap-item .item-right {
+    display: flex;
+}
+.nav-header .wrap-item .item-right .wrap-account{
+    display: flex;
+    align-items: center;
+}
+.nav-header .wrap-item .item-right .wrap-account{
+    display: flex;
+    padding: 0px 4px 0px 30px;
+}
+
+.nav-header .wrap-item .item-right .wrap-account .apps {
+    padding: 4px 2px 4px 0px;
+}
+.nav-header .wrap-item .item-right .wrap-account .wrap-avatar {
+    padding: 4px 2px 4px 6px;
+}
+.nav-header .wrap-item .item-right .wrap-account .avatar {
+    padding:4px;
+    border-radius:50%;
+}
+.nav-header .wrap-item .item-right .wrap-account .avatar img{
+    width: 32px;
+    border-radius:50%;
+    height: 32px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 685px;
+    align-items: center;
+}
+.main .left{
+    width: 656px;
+    min-height: 40px;
+    flex-direction: column;
+    padding: 1em 3em;
+}
+.main .left .title{
+    font-size: 44px;
+    line-height: 52px;
+    padding: 0 0 22px;
+}
+.main .left .script{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5rem;
+    padding-bottom: 3em;
+}
+
+.main .right{
+    width: 744px;
+}
