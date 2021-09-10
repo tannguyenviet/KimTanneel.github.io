@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <div class="header">
         <div class="nav-header">
@@ -21,7 +25,7 @@
                     </div>
                 </div>
                 <div class="wrap-item">
-                    <div class="item-left">
+                    <div class="item-left" >
                         <div class="wrap-date">
                             <span>10:27</span>
                             <span> • </span>
@@ -31,19 +35,18 @@
                             <div class="icon">
                                 <span class="material-icons-outlined">
                                     help_outline
-                                    </span>
+                                </span>
                             </div>
                             <div class="icon">
                                 <span class="material-icons-outlined">
                                     announcement
-                                    </span>
+                                </span>
                             </div>
                             <div class="icon">
                                 <span class="material-icons-sharp">
                                     settings
-                                    </span>
+                                </span>
                             </div>
-                            
                         </div>
                     </div>
                     <div class="item-right">
@@ -52,7 +55,7 @@
                                 <div class="icon icon-small">
                                     <span class="material-icons-outlined">
                                         apps
-                                        </span>
+                                    </span>
                                 </div>
                             </div>
                             <div class="wrap-avatar">
@@ -60,7 +63,7 @@
                                     <img src="./image/avatar.png" alt="">
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -69,20 +72,107 @@
     </div>
     <div class="main">
         <div class="left">
-            <div class="title">
-                Premium video meetings. Now free for everyone.
+            <div>
+                <div class="title">
+                    Premium video meetings. Now free for everyone.
+                </div>
+                <div class="script">We re-engineered the service that we built for secure business meetings, Google
+                    Meet, to
+                    make it free and available for all.</div>
+                <div class="wrap-button">
+                    <div class="new-meeting">
+                        <button class="btn-meeting">
+                            <span class="material-icons-outlined video-call">
+                                video_call
+                            </span>
+                            <span class="script-meeting">New meeting</span>
+                        </button>
+                    </div>
+                    <div id ='link-meeting'class="link-meeting">
+                        <div class="wrap-link">
+                            <label >
+                                <span id="input-link" class="wrap-span">
+                                    <span class="material-icons-outlined">
+                                        keyboard
+                                    </span>
+                                    <input onclick="onInputType()" onblur="onBlurInput()" type="text"
+                                        placeholder="Enter a code or link">
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="wrap-join" class="wrap-join" >
+                        <button>
+                            <span  class="join-script">Join</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="border-line">
+
+                </div>
+                <div class="more-info">
+                    <a href="#">Learn more</a> about Google Meet
+                </div>
             </div>
-            <div class="script">We re-engineered the service that we built for secure business meetings, Google Meet, to make it free and available for all.</div>
-            <div class="wrap-button">
-                <div class="new-meeting">
-                    <button>
-                        <i></i>
-                        <span></span>
-                    </button>
+
+        </div>
+        <div class="right">
+            <div class="wrap-slide">
+                <div>
+                    <div class="slide">
+                        <button id="before-slide" onclick="onBeforePageClick()" class="btn-page ">
+                            <span class="material-icons-outlined">
+                                navigate_before
+                                </span>
+                        </button>
+                        <div class="img-slide active">
+                            <img src="./image/sllide1.svg" alt="">
+                            <div class="script">Get a link that you can share</div>
+                            <div class="detail">
+                                Click <strong>New meeting</strong> to get a link that you can send to people that you want to meet with
+                            </div>
+                        </div>
+                        <div class="img-slide ">
+                            <img src="./image/slide2.svg" alt="">
+                            <div class="script">See everyone together</div>
+                            <div class="detail">
+                                To see more people at the same time, go to Change layout in the More options menu
+                            </div>
+                        </div>
+                        <div class="img-slide ">
+                            <img src="./image/slide3.svg" alt="">
+                            <div class="script">GPlan ahead</div>
+                            <div class="detail">
+                                Click <strong>New meeting</strong>  to schedule meetings in Google Calendar and send invitations to participants
+                            </div>
+                        </div>
+                        <div class="img-slide ">
+                            <img src="./image/slide4.svg" alt="">
+                            <div class="script">Your meeting is safe</div>
+                            <div class="detail">
+                                 No one can join a meeting unless invited or admitted by the host
+                        </div>
+                        </div>
+                        <button id="after-slide" onclick="onNextPageClick()" class="btn-page active">
+                                <span class="material-icons-outlined">
+                                    navigate_next
+                                    </span> 
+                            
+                        </button>
+                    </div>
+                    <div class="dot-slide">
+                        <div class="dot active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="right"></div>
     </div>
+    <img src="./image/fontgg_files/unnamed.png" alt="">
+    <script src="./index.js"></script>
 </body>
+
 </html>
