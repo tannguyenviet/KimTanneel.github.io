@@ -1,5 +1,4 @@
-let audio = new Audio('./sound.mp3');
-  audio.play();
+
 function showScript(){
   const script = 'Nào ai là Tr Lâm thì click vào đây nhá 😉😉 ...';
   let runScript = '';
@@ -18,7 +17,7 @@ function showScript(){
  setTimeout(() => {
    showScript();
  }, 500);
-function showScript2(){
+function showScript3(){
   const script = 'Từ lúc quen Thi tới giờ, thấy Thi vừa xinh gái, cute, nhảy múa thì xịn sò, đã v còn học giỏi nhất nhì lớp. Trong Đội Thi là trưởng ban PT, tổ chức những hoạt động hay, ý nghĩa, đem lại nhiều niềm vui và đặc biệt nhất là chúc Lâm tuổi mới thật thành công và may mắn nha 👌 BedFriendForever 😉😉 ...';
   let runScript = '';
   var count =0;
@@ -31,8 +30,26 @@ function showScript2(){
     runScript += script[count];
     document.getElementById('script2').innerHTML = runScript;
     count++;
-  }, 150);
+  }, 200);
 }
+function showScript2(){
+  const script = 'Đợi chút ... lên nhạc nào ✨✨ ';
+  let runScript = '';
+  var count =0;
+  console.log("interval");
+  const id = setInterval(() => {
+    if(count >= script.length-1){
+        clearInterval(id);
+        showScript3();
+    }
+   
+    runScript += script[count];
+    document.getElementById('script2').innerHTML = runScript;
+    count++;
+  }, 170);
+}
+
+
 window.requestAnimFrame = function () {
   return window.requestAnimationFrame ||
   window.webkitRequestAnimationFrame ||
@@ -322,6 +339,8 @@ window.onload = function () {
 };
 
 function reveal() {
+  let audio = new Audio('./sound.mp3');
+  audio.play();
   console.log("Vao revel nef");
   setTimeout(() => {
     showScript2();
