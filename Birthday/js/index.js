@@ -18,7 +18,7 @@ function showScript(){
    showScript();
  }, 500);
  function showScript4(){
-  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Trương Lâm!🎉🎉';
+  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Trương Lâm!🎉🎉 Click vào youtube để xem nhá :]]' ;
   let runScript = '';
   var count =0;
   console.log("interval");
@@ -48,7 +48,7 @@ function showScript3(){
     runScript += script[count];
     document.getElementById('script2').innerHTML = runScript;
     count++;
-  }, 30);
+  }, 130);
 }
 function showScript2(){
   
