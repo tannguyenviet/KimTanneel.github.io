@@ -48,7 +48,7 @@ function showScript3(){
     runScript += script[count];
     document.getElementById('script2').innerHTML = runScript;
     count++;
-  }, 140);
+  }, 30);
 }
 function showScript2(){
   
@@ -61,7 +61,9 @@ function showScript2(){
   const id = setInterval(() => {
     if(count >= script.length-1){
         clearInterval(id);
-        showScript3();
+        setTimeout(() => {
+          showScript3()
+        }, 1000);
     }
    
     document.getElementById('script2').innerHTML += script[count];
