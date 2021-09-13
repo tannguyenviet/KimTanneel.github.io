@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Product Sans',Arial,sans-serif;
 }
+
 li{
     text-decoration: none;
 }
@@ -22,6 +23,7 @@ li{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    
 }
 .main> div >img{
     border-radius: 50%;
