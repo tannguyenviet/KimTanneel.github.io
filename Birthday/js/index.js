@@ -17,8 +17,8 @@ function showScript(){
  setTimeout(() => {
    showScript();
  }, 500);
-function showScript3(){
-  const script = 'Từ lúc quen Thi tới giờ, thấy Thi vừa xinh gái, cute, nhảy múa thì xịn sò, đã v còn học giỏi nhất nhì lớp. Trong Đội Thi là trưởng ban PT, tổ chức những hoạt động hay, ý nghĩa, đem lại nhiều niềm vui và đặc biệt nhất là chúc Lâm tuổi mới thật thành công và may mắn nha 👌 BedFriendForever 😉😉 ...';
+ function showScript4(){
+  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Trương Lâm! Nhấn vào youtube mà coi nhé! Chúc Trương Lâm sinh nhật vui vẻ nha 🎉🎉';
   let runScript = '';
   var count =0;
   console.log("interval");
@@ -30,23 +30,43 @@ function showScript3(){
     runScript += script[count];
     document.getElementById('script2').innerHTML = runScript;
     count++;
-  }, 200);
+  }, 120);
+}
+function showScript3(){
+  const script = 'Từ lúc quen Thi tới giờ, thấy Thi vừa xinh gái, cute, nhảy múa thì xịn sò, đã v còn học giỏi nhất nhì lớp. Trong Đội Thi là trưởng ban PT, tổ chức những hoạt động hay, ý nghĩa, đem lại nhiều niềm vui và đặc biệt nhất là chúc Lâm tuổi mới thật thành công và may mắn nha 👌 BedFriendForever 😉😉 ... ';
+  let runScript = '';
+  var count =0;
+  console.log("interval");
+  const id = setInterval(() => {
+    if(count >= script.length-1){
+        clearInterval(id);
+        setTimeout(() => {
+          showScript4()
+        }, 2000);
+    }
+   
+    runScript += script[count];
+    document.getElementById('script2').innerHTML = runScript;
+    count++;
+  }, 140);
 }
 function showScript2(){
+  
   const script = 'Đợi chút ... lên nhạc nào ✨✨ ';
   let runScript = '';
   var count =0;
   console.log("interval");
+  document.getElementById('script2').innerHTML ='';
+
   const id = setInterval(() => {
     if(count >= script.length-1){
         clearInterval(id);
         showScript3();
     }
    
-    runScript += script[count];
-    document.getElementById('script2').innerHTML = runScript;
+    document.getElementById('script2').innerHTML += script[count];
     count++;
-  }, 170);
+  }, 100);
 }
 
 
@@ -341,6 +361,7 @@ window.onload = function () {
 function reveal() {
   let audio = new Audio('./sound.mp3');
   audio.play();
+  audio.stop
   console.log("Vao revel nef");
   setTimeout(() => {
     showScript2();
@@ -359,7 +380,8 @@ function reveal() {
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/gbICivOO26U?controls=0&loop=1&autoplay=1");
+  ifrm.setAttribute("src", "https://www.youtube.com/embed/CejKLVz73mw");
+  ifrm.setAttribute('allowFullScreen', '')
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';

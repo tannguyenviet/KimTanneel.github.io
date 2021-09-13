@@ -30,6 +30,7 @@ canvas#canvas {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.2s;
 }
 
 #compliment {
@@ -67,7 +68,7 @@ div#video iframe {
   width: 140px;
 }
 .trigger{
-  font-size: 35px;
+  font-size: 50px;
   height: 100vh;
   display: flex;
   justify-content: center;
