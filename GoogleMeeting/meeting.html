@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./meeting.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div id="wrap-main" class="wrap-main">
+            <img src="./image/big-avt.png" alt="">
+
+                <div id="mySidenav" class="sidenav">
+                    <div class="side-info">
+                        <div id="sidebar-info" class="sidebar-info " >
+                            <div class="btn-close">
+                                <span onclick="onNavShow('info')" class="material-icons-outlined icon">
+                                    close
+                                    </span>
+                            </div>
+                            <div class="header-info">Meeting details</div>
+                            <span class="title-info">Joining info</span>
+                            <span class="link-script">https://meet.google.com/adx-gcjh-mqw</span>
+                            <span class="copy-info">
+                                <span class="material-icons-outlined">
+                                    content_copy
+                                    </span>
+                                <div class="script-copy">Copy joining info</div>
+                            </span>
+                            <div class="border-line">
+                                <!-- <hr> -->
+                            </div>
+                            <div class="small-script">Google Calendar attachments will be shown here</div>
+                        </div>
+                        <div id="sidebar-group" class="sidebar-info " >
+                            <div class="btn-close">
+                                <span onclick="onNavShow('group')"class="material-icons-outlined icon">
+                                    close
+                                    </span>
+                            </div>
+                            <div class="header-info">People</div>
+                            <span class="title-info">Joining info</span>
+                            <span class="link-script">https://meet.google.com/adx-gcjh-mqw</span>
+                            <span class="copy-info">
+                                <span class="material-icons-outlined">
+                                    content_copy
+                                    </span>
+                                <div class="script-copy">Copy joining info</div>
+                            </span>
+                            <div class="border-line">
+                                <!-- <hr> -->
+                            </div>
+                            <div class="small-script">Google Calendar attachments will be shown here</div>
+                        </div>
+                        <div id="sidebar-message" class="sidebar-info " >
+                            <div class="btn-close">
+                                <span onclick="onNavShow('message')" class="material-icons-outlined icon">
+                                    close
+                                    </span>
+                            </div>
+                            <div class="header-info">In-call messages</div>
+                            <span class="title-info">Joining info</span>
+                            <span class="link-script">https://meet.google.com/adx-gcjh-mqw</span>
+                            <span class="copy-info">
+                                <span class="material-icons-outlined">
+                                    content_copy
+                                    </span>
+                                <div class="script-copy">Copy joining info</div>
+                            </span>
+                            <div class="border-line">
+                                <!-- <hr> -->
+                            </div>
+                            <div class="small-script">Google Calendar attachments will be shown here</div>
+                        </div>
+                        <div id="sidebar-activity" class="sidebar-info " >
+                            <div class="btn-close">
+                                <span onclick="onNavShow('activity')"class="material-icons-outlined icon">
+                                    close
+                                    </span>
+                            </div>
+                            <div class="header-info">Activity</div>
+                            <span class="title-info">Joining info</span>
+                            <span class="link-script">https://meet.google.com/adx-gcjh-mqw</span>
+                            <span class="copy-info">
+                                <span class="material-icons-outlined">
+                                    content_copy
+                                    </span>
+                                <div class="script-copy">Copy joining info</div>
+                            </span>
+                            <div class="border-line">
+                                <!-- <hr> -->
+                            </div>
+                            <div class="small-script">Google Calendar attachments will be shown here</div>
+                        </div>
+                        <div id="sidebar-secure" class="sidebar-info " >
+                            <div class="btn-close">
+                                <span onclick="onNavShow('secure')" class="material-icons-outlined icon">
+                                    close
+                                    </span>
+                            </div>
+                            <div class="header-info">Meeting Safe</div>
+                            <span class="title-info">Joining info</span>
+                            <span class="link-script">https://meet.google.com/adx-gcjh-mqw</span>
+                            <span class="copy-info">
+                                <span class="material-icons-outlined">
+                                    content_copy
+                                    </span>
+                                <div class="script-copy">Copy joining info</div>
+                            </span>
+                            <div class="border-line">
+                                <!-- <hr> -->
+                            </div>
+                            <div class="small-script">Google Calendar attachments will be shown here</div>
+                        </div>
+                    </div>
+                                                                                                                     
+                  </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <span class="time">9:15 PM</span>
+                <div class="script-code">adx-gcjh-mqw</div>
+            </div>
+            <div class="midle">
+                <div class="icon-list">
+                    <button id="btn-mic" onclick="onButtonMidClick('mic')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            mic
+                        </span>
+                        <span class="material-icons-outlined icon-disable">
+                            mic_off
+                        </span>
+                    </button>
+                    <button id="btn-cam" onclick="onButtonMidClick('cam')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            videocam
+                        </span>
+                        <span class="material-icons-outlined icon-disable">
+                            videocam_off
+                        </span>
+                    </button>
+                    <button id="btn-cam" onclick="onButtonMidClick('caption')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            closed_caption
+                        </span>
+
+                    </button>
+                    <button id="btn-present" onclick="onPopUpMidClick('present')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            present_to_all
+                        </span>
+                        <span id="popup-present" class="material-icons-outlined present ">
+                            <div>
+                                <span>
+                                    PreSent
+
+                                </span>
+                            </div>
+                            <ul class="list-present">
+
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" focusable="false"
+                                            class="Hdh4hc cIGbvc NMm5M">
+                                            <path
+                                                d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2M4 6h16v10H4V6zm.67 13H1v2h22v-2h-3.67">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="script-option">Your entire screen</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <svg height="24" viewBox="0 0 24 24" width="24" focusable="false"
+                                            class="Hdh4hc cIGbvc NMm5M">
+                                            <path
+                                                d="M21 1H8c-1.1 0-2 .9-2 2v6H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h13c1.1 0 2-.9 2-2v-6h3c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm-5 20H3v-8h13v8zm5-8h-3v-2c0-1.1-.9-2-2-2H8V5h13v8z">
+                                            </path>
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                        </svg>
+                                    </span>
+                                    <span class="script-option">A window</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" focusable="false"
+                                            class="Hdh4hc cIGbvc NMm5M">
+                                            <path
+                                                d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h10v4h8v10z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="script-option">A tab</span>
+                                </li>
+                            </ul>
+                        </span>
+                    </button>
+                    <button id="btn-present" onclick="onPopUpMidClick('option')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            more_vert
+                        </span>
+                        <span id="popup-option" class="material-icons-outlined present ">
+
+                            <ul class="list-present more-option">
+
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            edit
+                                        </span>
+                                    </span>
+                                    <span class="script-option">Whiteboard</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            dashboard
+                                        </span>
+                                    </span>
+
+                                    <span class="script-option">Change layout</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            fullscreen
+                                        </span>
+                                    </span>
+
+                                    <span class="script-option">Full screen</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            wallpaper
+                                            </span>
+                                    </span>
+
+                                    <span class="script-option">Full screen</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" focusable="false"
+                                            class="Hdh4hc cIGbvc NMm5M">
+                                            <path
+                                                d="M19 4H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H5V6h14v12z">
+                                            </path>
+                                            <path
+                                                d="M7 15h3c.55 0 1-.45 1-1v-1H9.5v.5h-2v-3h2v.5H11v-1c0-.55-.45-1-1-1H7c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm7 0h3c.55 0 1-.45 1-1v-1h-1.5v.5h-2v-3h2v.5H18v-1c0-.55-.45-1-1-1h-3c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                    <span class="script-option">Captions</span>
+                                </li>
+                                <li class="border-line"></li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            feedback
+                                            </span>
+                                    </span>
+                                    <span class="script-option">Report a problem</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            report_gmailerrorred
+                                            </span>
+                                    </span>
+                                    <span class="script-option">Report abuse</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            search
+                                            </span>
+                                    </span>
+                                    <span class="script-option">Troubleshooting & help</span>
+                                </li>
+                                <li class="present-option">
+                                    <span class="icon-option">
+                                        <span class="material-icons-outlined">
+                                            settings
+                                            </span>
+                                    </span>
+                                    <span class="script-option">Settings</span>
+                                </li>
+                            </ul>
+                            
+                            
+                        </span>
+                    </button>
+                    <button id="btn-call-end" onclick="onButtonMidClick('call-end')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            call_end
+                        </span>
+
+                    </button>
+                </div>
+
+            </div>
+            <div class="right">
+                <div class="wrap-manager">
+                    <button id="btn-nav-info" onclick="onNavShow('info')" class="btn-icon ">
+                        <span class="material-icons-outlined icon">
+                            info
+                            </span>
+                    </button>
+                    <button id="btn-nav-group" onclick="onNavShow('group')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            group
+                            </span>
+                    </button>
+                    <button id="btn-nav-message" onclick="onNavShow('message')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            chat
+                            </span>
+                    </button>
+                    <button id="btn-nav-activity" onclick="onNavShow('activity')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            widgets
+                            </span>
+                    </button>
+                    <button id="btn-nav-secure"onclick="onNavShow('secure')" class="btn-icon">
+                        <span class="material-icons-outlined icon">
+                            security
+                            </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="./meeting.js"></script>
+</body>
+
+</html>

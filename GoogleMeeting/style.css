@@ -11,6 +11,10 @@
 img{
     vertical-align: top;
 } 
+.container {
+    width: 100vh;
+    height: 100vh;
+}
 .icon span{
     padding: 12px;
     vertical-align: top;
@@ -171,7 +175,7 @@ display: flex;
 }
 .main .left .wrap-button .btn-meeting:hover{
     cursor: pointer;
-    background-color: #00796b;
+    background-color:  #1B66CA;
 }
 .main .left .wrap-button .video-call{
     margin:0px 8px 0px -4px;
@@ -219,6 +223,10 @@ display: flex;
    margin :0px 8px 0px 16px;
     
 }
+/* .main .left .wrap-button .link-meeting .wrap-span span :hover{
+    color: #1B66CA;
+     
+ } */
 .main .left .wrap-button .link-meeting .wrap-span input{
     outline: none;
     border: none;
@@ -227,6 +235,7 @@ display: flex;
     font-weight: 400;
     color:#3C4044;
 }
+
 .main .left .border-line{
     border-bottom: 1px solid;
     border-color: #dadce0;
@@ -243,15 +252,20 @@ display: flex;
     color: #5f6368;
 }
 .main .left .more-info a{
-    
     color: #1a73e8;
     text-decoration: none;
 }
-.main .left .wrap-join {
-    /* margin-left: 16px; */
+.main .left .wrap-join>button.active:hover {
+    color:#1B66CA;
+    background-color: #eeeeee;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.main .left .wrap-join>button.active{
+    color:#1B66CA;
 }
 .main .left .wrap-join >button{
-    color:#1a73e8;
+    color:#cccccc;
     background: none;
     border:none;
     font-size: 16px;
@@ -259,7 +273,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 500;
-
+    
     padding: 0 8px;
     height: 3em;
     margin: 6px 24px 16px 0px;

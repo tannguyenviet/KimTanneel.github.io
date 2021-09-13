@@ -81,7 +81,7 @@
                     make it free and available for all.</div>
                 <div class="wrap-button">
                     <div class="new-meeting">
-                        <button class="btn-meeting">
+                        <button onclick="changePageMeeting()" class="btn-meeting">
                             <span class="material-icons-outlined video-call">
                                 video_call
                             </span>
@@ -95,15 +95,15 @@
                                     <span class="material-icons-outlined">
                                         keyboard
                                     </span>
-                                    <input onclick="onInputType()" onblur="onBlurInput()" type="text"
+                                    <input oninput="onInputLink()" id="inputLinkId" onclick="onClickType()" onblur="onBlurInput()" type="text"
                                         placeholder="Enter a code or link">
                                 </span>
                             </label>
                         </div>
                     </div>
                     <div id="wrap-join" class="wrap-join" >
-                        <button>
-                            <span  class="join-script">Join</span>
+                        <button id="btnLinkId">
+                            <span class="join-script">Join</span>
                         </button>
                     </div>
 
@@ -171,7 +171,6 @@
             </div>
         </div>
     </div>
-    <img src="./image/fontgg_files/unnamed.png" alt="">
     <script src="./index.js"></script>
 </body>
 

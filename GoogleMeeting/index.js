@@ -1,12 +1,29 @@
-    function onInputType(){
+    function onClickType(){
     document.getElementById('input-link').className='wrap-span active';
     document.getElementById('link-meeting').className='link-meeting active';
     document.getElementById('wrap-join').style.opacity='1'
 }
+function onInputLink(){
+    console.log('Onchange');
+    const inputElement = document.getElementById('inputLinkId');
+    console.log(inputElement);
+    if(inputElement.value.length===0){
+        document.getElementById('btnLinkId').className= ''
+    }
+    else{
+        document.getElementById('btnLinkId').className= 'active'
+    }
+}
 function onBlurInput(){
+    const textLinkElement = document.getElementById('inputLinkId');
     document.getElementById('input-link').className= 'wrap-span';
-    document.getElementById('link-meeting').className='link-meeting';
-    document.getElementById('wrap-join').style.opacity='0'
+    console.log({textLinkElement});
+    if (textLinkElement.value.length===0){
+        document.getElementById('wrap-join').style.opacity='0'
+        document.getElementById('link-meeting').className='link-meeting';
+
+    }
+    
 }
 function getIndexCurrentSlide(){
     const divImageSlideElement = document.getElementsByClassName('img-slide');
@@ -68,3 +85,7 @@ function onBeforePageClick(){
     }
 }
 
+function changePageMeeting(){
+    // http://127.0.0.1:5501/GoogleMeeting/meeting.html
+    window.location.href = "meeting.html";
+}
