@@ -18,7 +18,7 @@ function showScript(){
    showScript();
  }, 500);
  function showScript4(){
-  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Trương Lâm! Nhấn vào youtube mà coi nhé! Chúc Trương Lâm sinh nhật vui vẻ nha 🎉🎉';
+  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Trương Lâm!🎉🎉';
   let runScript = '';
   var count =0;
   console.log("interval");
