@@ -18,7 +18,7 @@ function showScript(){
    showScript();
  }, 500);
  function showScript4(){
-  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Thịnh !🎉🎉 Click vào youtube để xem nhá :]] Uống vậy thì luyện thêm chứ để a Tân gặt mệt lắm...' ;
+  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Thịnh  !!🎉🎉 Click vào youtube để xem nhá :]] Uống vậy thì luyện thêm chứ để a Tân gặt mệt lắm...' ;
   let runScript = '';
   var count =0;
   console.log("interval");
