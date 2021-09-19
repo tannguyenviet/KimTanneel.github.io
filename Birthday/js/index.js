@@ -1,6 +1,6 @@
 
 function showScript(){
-  const script = 'Nào ai là Tr Lâm thì click vào đây nhá 😉😉 ...';
+  const script = 'Nào ai là Phuoc Thinh thì click vào đây nhá 😉😉 ...';
   let runScript = '';
   var i =0;
   console.log("interval");
@@ -18,7 +18,7 @@ function showScript(){
    showScript();
  }, 500);
  function showScript4(){
-  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Trương Lâm!🎉🎉 Click vào youtube để xem nhá :]]' ;
+  const script = 'Cuối cùng là video tình thương mếm thương gởi đến Thịnh !🎉🎉 Click vào youtube để xem nhá :]] Uống vậy thì luyện thêm chứ để a Tân gặt mệt lắm...' ;
   let runScript = '';
   var count =0;
   console.log("interval");
@@ -33,7 +33,7 @@ function showScript(){
   }, 120);
 }
 function showScript3(){
-  const script = 'Từ lúc quen Thi tới giờ, thấy Thi vừa xinh gái, cute, nhảy múa thì xịn sò, đã v còn học giỏi nhất nhì lớp. Trong Đội Thi là trưởng ban PT, tổ chức những hoạt động hay, ý nghĩa, đem lại nhiều niềm vui và đặc biệt nhất là chúc Lâm tuổi mới thật thành công và may mắn nha 👌 BedFriendForever 😉😉 ... ';
+  const script = 'Từ lúc quen Thịnh tới giờ, thấy Thịnh vừa đẹp trai, cute, nhảy múa, hát hò thì xịn sò, đã v còn học giỏi gần nhất lớp thua mỗi ta. Trong lớp còn làm Phó chủ tịch năng nổ hoạt bát nữa chớ, Chúc Thịnh tuổi mới thật thành công và may mắn nha 👌 BedFriendForever 😉😉 ... ';
   let runScript = '';
   var count =0;
   console.log("interval");
@@ -382,7 +382,7 @@ function reveal() {
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/CejKLVz73mw");
+  ifrm.setAttribute("src", "https://www.youtube.com/embed/oKKByawzOsM");
   ifrm.setAttribute('allowFullScreen', '')
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
