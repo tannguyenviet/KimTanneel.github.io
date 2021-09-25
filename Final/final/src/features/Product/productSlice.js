@@ -58,6 +58,7 @@ const product = createSlice({
       
 
     },
+    
     [getApiProductList.rejected]: (state, action) =>{
       
      

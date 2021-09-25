@@ -45,7 +45,6 @@ function App() {
             <Route path={"/products"} component={Product} />
 
             <Route path="/orders" component={Order}/>
-            <Route path="/photos" component={Photo} />
             <Route path={"/login"} component={LoginForm} />
             <Route component={NotFound} />
 
